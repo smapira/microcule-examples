@@ -47,6 +47,7 @@ def main(_):
 	result = sess.run(accuracy, feed_dict={x: mnist.test.images,
 	                                  y_: mnist.test.labels})
 	print(result)
+	print("aaaaa")
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
