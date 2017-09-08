@@ -47,6 +47,8 @@ import tensorflow as tf
 
 FLAGS = None
 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
+
 # pylint: disable=line-too-long
 DATA_URL = 'http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz'
 # pylint: enable=line-too-long
